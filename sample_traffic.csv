@@ -1,0 +1,8 @@
+protocol_type,service,flag,src_bytes,dst_bytes,duration
+tcp,http,SF,100,200,0
+tcp,http,SF,500,1000,0
+icmp,eco_i,SF,0,0,0
+tcp,ftp_data,SF,491,0,0
+udp,dns,SF,100,100,0
+tcp,private,S0,0,0,0
+icmp,ecr_i,SF,1000,1000,0

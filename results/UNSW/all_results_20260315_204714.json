@@ -1,0 +1,149 @@
+{
+    "project": "UNSW-NB15 Intrusion Detection System",
+    "timestamp": "20260315_204714",
+    "best_method": "Voting Ensemble",
+    "target_achieved": true,
+    "dataset_info": {
+        "training_samples": 122738,
+        "validation_samples": 52603,
+        "test_samples": 82332,
+        "features": [
+            "is_sm_ips_ports",
+            "sbytes",
+            "dbytes",
+            "rate",
+            "dur",
+            "sload",
+            "dload",
+            "sinpkt",
+            "dinpkt",
+            "sjit",
+            "djit",
+            "tcprtt",
+            "synack",
+            "ackdat",
+            "bytes_ratio",
+            "packets_ratio",
+            "load_ratio",
+            "jitter_product",
+            "dangerous_proto"
+        ],
+        "n_features": 19
+    },
+    "model_performance": {
+        "PyTorch (thresh=0.49)": {
+            "precision": 0.6574426309976684,
+            "recall": 0.9454689843818936,
+            "f1_score": 0.775578154970866
+        },
+        "Random Forest Ensemble": {
+            "precision": 0.5782163335745699,
+            "recall": 0.9164828377305215,
+            "f1_score": 0.7090729109776078
+        },
+        "XGBoost": {
+            "precision": 0.853027353351818,
+            "recall": 0.9569178505250154,
+            "f1_score": 0.9019909549306024
+        },
+        "Voting Ensemble": {
+            "precision": 0.8826883910386966,
+            "recall": 0.9082546545486632,
+            "f1_score": 0.8952890396512172
+        }
+    },
+    "threshold_analysis": {
+        "current_threshold": 0.5,
+        "current_recall": 0.6369231447983764,
+        "current_precision": 0.8612635723660661,
+        "optimal_threshold_90": 0.49183673469387756,
+        "optimal_precision_90": 0.6574426309976684,
+        "optimal_recall_90": 0.9454689843818936,
+        "threshold_options": [
+            {
+                "threshold": 0.1,
+                "recall": 1.0,
+                "precision": 0.5853293219879402,
+                "f1": 0.7384324680930778
+            },
+            {
+                "threshold": 0.1326530612244898,
+                "recall": 1.0,
+                "precision": 0.5870043767643022,
+                "f1": 0.7397640300918749
+            },
+            {
+                "threshold": 0.1653061224489796,
+                "recall": 0.9997794052766258,
+                "precision": 0.58787210584344,
+                "f1": 0.7403922337392895
+            },
+            {
+                "threshold": 0.1979591836734694,
+                "recall": 0.9995146916085768,
+                "precision": 0.588525633532063,
+                "f1": 0.7408376321318498
+            },
+            {
+                "threshold": 0.2306122448979592,
+                "recall": 0.9987205506044295,
+                "precision": 0.5896357266582447,
+                "f1": 0.7414977684969086
+            },
+            {
+                "threshold": 0.263265306122449,
+                "recall": 0.9975734580428837,
+                "precision": 0.5919419864914394,
+                "f1": 0.7430007886435331
+            },
+            {
+                "threshold": 0.29591836734693877,
+                "recall": 0.9964484249536751,
+                "precision": 0.594449123545823,
+                "f1": 0.7446587537091988
+            },
+            {
+                "threshold": 0.3285714285714286,
+                "recall": 0.9950366187240801,
+                "precision": 0.5982836830517018,
+                "f1": 0.7472623958385104
+            },
+            {
+                "threshold": 0.36122448979591837,
+                "recall": 0.9929850877966999,
+                "precision": 0.600579044976051,
+                "f1": 0.7484681958381484
+            },
+            {
+                "threshold": 0.3938775510204082,
+                "recall": 0.9901835348098473,
+                "precision": 0.6272726002319764,
+                "f1": 0.7680146461233115
+            },
+            {
+                "threshold": 0.42653061224489797,
+                "recall": 0.9867422571252096,
+                "precision": 0.6366858346618083,
+                "f1": 0.7739730767899782
+            },
+            {
+                "threshold": 0.4591836734693878,
+                "recall": 0.9783155386923145,
+                "precision": 0.6421528169931802,
+                "f1": 0.7753660562087504
+            },
+            {
+                "threshold": 0.49183673469387756,
+                "recall": 0.9454689843818936,
+                "precision": 0.6574426309976684,
+                "f1": 0.775578154970866
+            }
+        ]
+    },
+    "training_history": {
+        "final_train_recall": 0.8912351265292442,
+        "final_train_loss": 0.3433782579998175,
+        "best_val_recall": 0.9332458173896042,
+        "training_time_minutes": 22.386338965098062
+    }
+}

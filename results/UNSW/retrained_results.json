@@ -1,0 +1,16 @@
+{
+    "model": "Retrained MLP with Augmented Data",
+    "accuracy": 0.7638839602555003,
+    "precision": 0.9642680514342236,
+    "recall": 0.6077300709109328,
+    "f1_score": 0.7455666555135988,
+    "training_time_minutes": 5.837275063991546,
+    "augmentation_applied": [
+        "Worms",
+        "Shellcode",
+        "Fuzzers",
+        "Backdoor",
+        "Analysis"
+    ],
+    "input_features": 18
+}

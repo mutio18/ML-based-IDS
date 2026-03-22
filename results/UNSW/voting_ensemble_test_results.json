@@ -1,0 +1,14 @@
+{
+    "method": "Voting Ensemble (PyTorch + XGBoost)",
+    "precision": 0.758860555470725,
+    "recall": 0.9866760787081973,
+    "f1_score": 0.8579018537876536,
+    "threshold": 0.49,
+    "goal_achieved": true,
+    "confusion_matrix": {
+        "tn": 22787,
+        "fp": 14213,
+        "fn": 604,
+        "tp": 44728
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "model": "Voting Ensemble (PyTorch + XGBoost)",
+    "timestamp": "2026-03-19 11:18:01",
+    "metrics": {
+        "accuracy": 0.820033522810086,
+        "precision": 0.758860555470725,
+        "recall": 0.9866760787081973,
+        "f1_score": 0.8579018537876536,
+        "roc_auc": 0.9562094084841922
+    },
+    "confusion_matrix": {
+        "tn": 22787,
+        "fp": 14213,
+        "fn": 604,
+        "tp": 44728
+    },
+    "per_class": {
+        "normal": {
+            "precision": 0.9741781026890685,
+            "recall": 0.6158648648648649,
+            "f1": 0.7546488715205909
+        },
+        "attack": {
+            "precision": 0.758860555470725,
+            "recall": 0.9866760787081973,
+            "f1": 0.8579018537876536
+        }
+    },
+    "threshold_used": 0.49,
+    "optimal_threshold": 0.681170642375946,
+    "dataset_size": {
+        "total": 82332,
+        "normal": 37000,
+        "attack": 45332
+    }
+}

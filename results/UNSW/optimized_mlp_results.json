@@ -1,0 +1,30 @@
+{
+    "model": "Optimized MLP (19 features)",
+    "accuracy": 0.7110722440849244,
+    "precision": 0.6736915089167661,
+    "recall": 0.9216668137298156,
+    "f1_score": 0.7784070796460177,
+    "features": [
+        "is_sm_ips_ports",
+        "sbytes",
+        "dbytes",
+        "rate",
+        "dur",
+        "sload",
+        "dload",
+        "sinpkt",
+        "dinpkt",
+        "sjit",
+        "djit",
+        "tcprtt",
+        "synack",
+        "ackdat",
+        "bytes_ratio",
+        "packets_ratio",
+        "load_ratio",
+        "jitter_product",
+        "dangerous_proto"
+    ],
+    "n_features": 19,
+    "training_time_minutes": 22.386338965098062
+}

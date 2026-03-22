@@ -1,0 +1,2 @@
+Model,Accuracy,Precision,Recall,F1_Score,True_Negatives,False_Positives,False_Negatives,True_Positives,Detection_Rate,False_Alarm_Rate,Miss_Rate
+K-Nearest Neighbors,0.7995031937544358,0.9659231027911669,0.6714719862853581,0.7922221200698722,9407,304,4216,8617,0.6714719862853581,0.03130470600350119,0.32852801371464196

@@ -1,0 +1,5 @@
+Method,Precision,Recall,F1-Score,Goal_Met
+PyTorch (thresh=0.49),0.6574,0.9455,0.7756,YES
+Random Forest Ensemble,0.5782,0.9165,0.7091,YES
+XGBoost,0.8530,0.9569,0.9020,YES
+Voting Ensemble,0.8827,0.9083,0.8953,YES

@@ -1,0 +1,6 @@
+is_sm_ips_ports,sbytes,dbytes,rate,dur,sload,dload,sinpkt,dinpkt,sjit,djit,tcprtt,synack,ackdat,proto,spkts,dpkts,attack_probability,prediction,confidence
+0,500,1000,10,0,0,0,0,0,0,0,0,0,0,tcp,5,5,0.7059673,ATTACK,0.7059673
+0,100,200,5,0,0,0,0,0,0,0,0,0,0,tcp,2,2,0.31052065,NORMAL,0.31052065
+1,0,0,0,0,0,0,0,0,0,0,0,0,0,icmp,0,0,0.25295663,NORMAL,0.25295663
+0,1000,2000,20,0,0,0,0,0,0,0,0,0,0,tcp,10,10,0.7231198,ATTACK,0.7231198
+0,50,50,1,0,0,0,0,0,0,0,0,0,0,udp,1,1,0.2597381,NORMAL,0.2597381
