@@ -11,7 +11,7 @@ Before you begin, ensure the following software is installed on your machine:
 | pip	| Latest |	Python package manager |
 | npm |	Latest |	Node.js package manager |
 
-Downloading from GitHub
+<u>Downloading from GitHub</u>
 Step 1: Clone the Repository
 Open a terminal (Command Prompt, PowerShell, or Git Bash) and run:
 git clone https://github.com/mutio18/aegis-ids.git
@@ -22,7 +22,7 @@ You will see two main folders:
 - ml-backend/ - FastAPI backend with XGBoost model
 - aegis-frontend/ - Next.js frontend application
 
-Backend Setup
+<u>Backend Setup</u>
 Step 1: Navigate to Backend Folder
 bash: cd ml-backend
 
@@ -57,7 +57,7 @@ Model loaded with 18 features
 INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
 Keep this terminal window open. The backend must remain running for the frontend to work.
 
-Frontend Setup
+<u>Frontend Setup</u>
 Step 1: Open a New Terminal
 Open a second terminal window while keeping the backend terminal running.
 
