@@ -4,6 +4,7 @@ A machine learning-based intrusion detection system that analyzes network traffi
 Before you begin, ensure the following software is installed on your machine:
 
 | Software |	Version |	Purpose |
+|----------|----------|---------|
 | Python |	3.10 or higher |	Backend runtime |
 | Node.js |	18 or higher |	Frontend runtime |
 | Git	| Latest |	Cloning the repository |
